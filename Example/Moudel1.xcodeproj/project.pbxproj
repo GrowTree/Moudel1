@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		09FF351EA34887F10A90D257 /* Pods-Moudel1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moudel1_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moudel1_Tests/Pods-Moudel1_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2CDBAA1FACC8B6B55FAB4A49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2CDBAA1FACC8B6B55FAB4A49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2F2D5E59BE5F72CA5D4409EE /* Pods-Moudel1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moudel1_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moudel1_Tests/Pods-Moudel1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		33155B14CB783829C0A7486E /* Pods_Moudel1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moudel1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5292E43B5393E746DF8C7023 /* Pods-Moudel1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moudel1_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moudel1_Example/Pods-Moudel1_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		78B34FCFB39B31CA135F2D46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		78B34FCFB39B31CA135F2D46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8651B76180603E27976D39D0 /* Pods-Moudel1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moudel1_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moudel1_Example/Pods-Moudel1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98B1379D30862AE799306731 /* Pods_Moudel1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moudel1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAA5437371A0B89F3712D3D3 /* Moudel1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Moudel1.podspec; path = ../Moudel1.podspec; sourceTree = "<group>"; };
+		AAA5437371A0B89F3712D3D3 /* Moudel1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Moudel1.podspec; path = ../Moudel1.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Moudel1_Example-checkManifestLockResult.txt",
 			);
@@ -321,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Moudel1_Tests-checkManifestLockResult.txt",
 			);
@@ -343,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Moudel1_Example/Pods-Moudel1_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Moudel1/Moudel1.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moudel1.framework",
 			);
